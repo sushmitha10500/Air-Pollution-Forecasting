@@ -1,4 +1,8 @@
 # Air-Pollution-Forecasting
+
+Built a multivariate LSTM model in Python to forecast air pollution using time series data. Preprocessed data with lag features, normalized inputs, and reshaped for supervised learning. Trained on multiple timesteps, evaluated with RMSE & MAE, and delivered a scalable forecasting pipeline.
+
+
 This is a dataset that reports on the weather and the level of pollution each hour for five years at the US embassy in Beijing, China.
 The data includes the date-time, the pollution called PM2.5 concentration, and the weather information including dew point, temperature, pressure, wind direction, wind speed and the cumulative number of hours of snow and rain.
 
