@@ -2,11 +2,9 @@
 
 Built a multivariate LSTM model in Python to forecast air pollution using time series data. Preprocessed data with lag features, normalized inputs, and reshaped for supervised learning. Trained on multiple timesteps, evaluated with RMSE & MAE, and delivered a scalable forecasting pipeline.
 
+This project uses the Beijing PM2.5 Data Set, which contains hourly records of air pollution and weather conditions collected over five years at the US Embassy in Beijing, China.
 
-This is a dataset that reports on the weather and the level of pollution each hour for five years at the US embassy in Beijing, China.
-The data includes the date-time, the pollution called PM2.5 concentration, and the weather information including dew point, temperature, pressure, wind direction, wind speed and the cumulative number of hours of snow and rain.
-
-The dataset contains hourly records collected over five years at the US Embassy in Beijing. The features include:
+The features include:
 | Feature | Description                                         |
 | ------- | --------------------------------------------------- |
 | `No`    | Row index (can be dropped)                          |
