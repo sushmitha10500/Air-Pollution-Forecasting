@@ -1,4 +1,5 @@
-# Air-Pollution-Forecasting
+# air pollution forecasting using lstm on multivariate time series data
+Predict PM2.5 pollution levels using historical environmental data with LSTM networks.
 
 Built a multivariate LSTM model in Python to forecast air pollution using time series data. Preprocessed data with lag features, normalized inputs, and reshaped for supervised learning. Trained on multiple timesteps, evaluated with RMSE & MAE, and delivered a scalable forecasting pipeline.
 
