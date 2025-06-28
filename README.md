@@ -1,10 +1,19 @@
-# air pollution forecasting using lstm on multivariate time series data
+# Air pollution forecasting using lstm on multivariate time series data
 Predict PM2.5 pollution levels using historical environmental data with LSTM networks.
 
+------------------------------------------------------------------------------------------------
 Built a multivariate LSTM model in Python to forecast air pollution using time series data. Preprocessed data with lag features, normalized inputs, and reshaped for supervised learning. Trained on multiple timesteps, evaluated with RMSE & MAE, and delivered a scalable forecasting pipeline.
 
-This project uses the Beijing PM2.5 Data Set, which contains hourly records of air pollution and weather conditions collected over five years at the US Embassy in Beijing, China.
+Built a deep learning model using Long Short-Term Memory (LSTM) to forecast PM2.5 levels one hour in advance.
 
+Worked with multivariate time series data including temperature, dew point, pressure, wind speed/direction, rain, and snow.
+
+Captured temporal dependencies and trained model using supervised learning techniques.
+
+Demonstrated the effectiveness of deep learning for environmental monitoring and pollution forecasting.
+
+----------------------------------------------------------------------------------------------------------
+This project uses the Beijing PM2.5 Data Set, which contains hourly records of air pollution and weather conditions collected over five years at the US Embassy in Beijing, China.
 The features include:
 | Feature | Description                                         |
 | ------- | --------------------------------------------------- |
